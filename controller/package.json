@@ -1,0 +1,10 @@
+{
+  "name": "control",
+  "description": "Controller for FS/Janus",
+  "version": "0.0.1",
+  "dependencies": {
+      "ws":"0.7.2",
+      "uuid": "2.0.1"
+  },
+  "main": "control.js"
+}

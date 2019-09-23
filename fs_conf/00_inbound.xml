@@ -1,0 +1,13 @@
+<include>
+  <extension name="conference_test">
+    <condition field="destination_number" expression="^(333333....)$">
+      <action application="set" data="domain_name=$${domain}"/>
+      <action application="lua" data="conference_test.lua"/>
+    </condition>
+  </extension>
+  <extension name="inbound_conference_test">
+    <condition field="destination_number" expression="^service$">
+      <action application="conference" data="test"/>
+    </condition>
+  </extension>
+</include>
