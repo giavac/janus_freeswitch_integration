@@ -6,7 +6,7 @@ The simple code merely "translates" from FS' verto protocol to Janus API (over H
 
 Many hardcoded values and assumptions on the location of both FS and Janus were made.
 
-`verto.js` is copied from https://bitbucket.org/neilstratford/xyz/raw/35922b7d2e0c5402d9d39eb327bd7c77e52a06b1/server/verto.js and then disfigured and bent to the purposes of this PoC.
+`verto.js` is copied from a private repo; its publication is under discussion.
 
 #### Constraints
 
